@@ -17,7 +17,7 @@ const Navbar = () => {
         <li className="nav-link">Trending</li>
         <li className="nav-link">Categories</li>
       </ul>
-      <div className="burger" value={isOpen} onClick={() => setIsOpen(!isOpen)}>
+      <div className="burger" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? (
           <>
             <img src={Close} alt="X" />
